@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+.gym-name{
+  color: rgb(246, 87, 87)!important;
+  font-weight: bold;
+}
+.min-div-img{
+  width: 100%;
+  height: 380px;
+  border-radius:15px;
+}
+.main-screen{
+  width: 100%;
+}
+.gym-intro{
+  justify-content: space-between;
+  color: white;
+}
+.nav-link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: rgba(228, 77, 77, 0.734);
+  content: "";
+  transform: translateX(-50%);
+  transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+.colorCard{
+  background-color:rgba(144, 35, 35, 0.125);
+}
+.g-0{
+  --bs-gutter-x:none!important;
+}
